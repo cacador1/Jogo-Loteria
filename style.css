@@ -1,0 +1,115 @@
+
+/* Estilos globais */
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Estilos do corpo */
+
+body {
+
+    background: rgb(30, 121, 156);
+    background-image: linear-gradient(to left, rgb(29, 149, 196) 4%, rgba(45,122,253,1) 94%);
+      
+}
+
+/* Estilos do cabeçalho */
+
+h1 {
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.301);
+}
+
+/* Estilos da seção */
+
+section {
+    
+    background: rgba(255, 255, 255, 0.534);
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 14px );
+    -webkit-backdrop-filter: blur( 14px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    margin: auto;
+    min-height: 200px;
+    width: 500px;
+}
+
+/* Estilos das instruções */
+
+
+/* Estilos dos dados */
+
+.dados {
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Estilos dos inputs */
+
+.inputs {
+
+    padding-top: 20px;
+}
+
+/* Estilos dos botões */
+
+.botao2 {
+    
+    padding-right: 34px;
+}
+
+
+/* Define a cor de fundo do botão como branco */
+.sortear_botao{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+  
+/* Quando o botão é hover, muda a cor de fundo para um tom mais escuro */
+.sortear_botao:hover {
+    background-color: rgb(209, 199, 199);
+}
+  
+/* Quando o botão é pressionado, muda a cor de fundo para um tom ainda mais escuro */
+.sortear_botao:active {
+    background-color: rgb(204, 196, 196);
+}
+  
+
+/* Estilos dos resultados */
+
+.resultado {
+    color: black;
+    padding-top: 10px;
+    text-align: center;
+}
+
+/* Estilos dos títulos */
+
+h2 {
+    font-size: 14pt;
+}
+
+/* Estilos dos elementos específicos */
+
+.qtd_jogos {
+    border-color: unset;
+    border-radius: 5px;
+    width: 100px;
+}
+/* Quando o botão é hover, muda a cor de fundo para um tom mais escuro */
+.qtd_jogos:hover{
+        background-color: rgb(235, 226, 226);
+}
+
+
+
+
+

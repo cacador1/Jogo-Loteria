@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Importação do arquivo de estilos -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Sorteio de Jogos - Loteria</title>
+</head>
+<body>
+    <h1>
+        Sorteio de Jogos
+    </h1>
+
+    <section>
+
+        <div class="dados">
+
+            <label for="qtd_jogos">Digite a quantidade de jogos à serem sorteados:</label>
+            
+            
+            <div class="inputs">
+                <!-- Caixa de entrada para o usuário digitar a quantidade de jogos a serem sorteados -->
+                <input type="number" id="qtd_jogos" class="qtd_jogos">
+
+                <!-- Botão para sortear os jogos -->
+                <button onclick="sortear_jogos()" class="sortear_botao">Sortear</button>
+
+                <div class="botao2">
+                    <!-- Botão para sortear o Dia de Sorte -->
+                    <p> <label for="botao2">Dia de Sorte -></label>
+                        <button onclick="sortear_jogos2()" class="sortear_botao" id="botao2">Sortear</button>
+
+                    </p>
+                </div>
+
+
+            </div>
+
+        </div>
+
+        <div class="resultado" id="resultado">
+            <h2>Jogos sorteados:</h2>
+
+            <!-- Área para exibir os jogos sorteados -->
+            <strong>
+                <p id="mostrar_jogos"></p>
+            </strong>
+        </div>
+    </section>
+    
+    <!-- Importação do arquivo de scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
